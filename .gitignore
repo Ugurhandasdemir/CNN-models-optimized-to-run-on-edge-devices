@@ -1,1 +1,4 @@
-./models
+models/*
+models/*.pth
+models/*.pt
+models/**/*.safetensors
