@@ -3,3 +3,4 @@ models/*
 models/*.pth
 models/*.pt
 models/**/*.safetensors
+.DS_Store
