@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python plot_results.py)",
+      "Bash(nvidia-smi)",
+      "Bash(/home/atp-user-18/Desktop/uc_cihazlarda_terhmal_object_detection/venv/bin/pip install:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 -c \"import inspect, torchvision.models.detection.roi_heads as rh; print\\(inspect.getsource\\(rh.fastrcnn_loss\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; nb=json.load\\(sys.stdin\\); [print\\(f'cell {i}: {c[\\\\\"cell_type\\\\\"]} | source[:80]={repr\\(\\\\\"\\\\\".join\\(c[\\\\\"source\\\\\"]\\)[:80]\\)}'\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python3)",
+      "Bash(python3 -c \"import pandas as pd; df=pd.read_excel\\('runs/faster_cnn/fasterrcnn_mobilenet_training.xlsx', sheet_name=None\\); [print\\(k, list\\(v.columns\\)\\) for k,v in df.items\\(\\)]\")",
+      "Bash(python3 runs/faster_cnn/generate_charts.py)",
+      "Bash(python3 -m src.plot_fasterrcnn_results)",
+      "Bash(python3 runs/faster_cnn/import_log_to_xlsx.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -)"
+    ]
+  }
+}
