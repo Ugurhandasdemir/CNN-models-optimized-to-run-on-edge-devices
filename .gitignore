@@ -15,8 +15,6 @@ nanoenv/
 .venv
 env/
 
-
-
 # Model weights
 *.pt
 *.pth
@@ -25,19 +23,24 @@ env/
 *.tflite
 *.pb
 *.weights
-
+*.safetensors
+models/*
+models/**/*.safetensors
 
 # Dataset images (sadece annotation dosyaları takip edilsin)
 dataset/dataset_augmented/*/images/
 dataset/dataset_raw/*/images/
 dataset/dataset_original/*/images/
 
-
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
