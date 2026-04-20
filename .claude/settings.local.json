@@ -14,7 +14,10 @@
       "Bash(python3 runs/faster_cnn/import_log_to_xlsx.py)",
       "Bash(python3 -c ' *)",
       "Bash(python3 -)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(git commit *)",
+      "Bash(git add *)"
     ]
   }
 }
